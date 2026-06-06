@@ -1,27 +1,19 @@
-Phishing Email Detection Model
+# Phishing Email Detection Model
 
-Overview
+A machine learning project that classifies emails as Phishing or Safe using Scikit-learn.
 
-This project uses Machine Learning and Scikit-learn to detect phishing emails. The model is trained on a dataset containing phishing and legitimate emails and classifies incoming emails as either "Phishing" or "Safe".
-
-Features
-
-- Email dataset preprocessing
-- Feature extraction using text analysis
-- URL and keyword detection
-- Classification using Scikit-learn
-- Accuracy evaluation
+## Features
+- Email classification
+- URL and keyword analysis
+- Accuracy calculation
 - Confusion Matrix generation
 
-Technologies Used
-
+## Technologies
 - Python
-- Scikit-learn
 - Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Scikit-learn
 
-Expected Outcome
-
-The model successfully identifies phishing emails with high accuracy and provides evaluation metrics for performance analysis.
+## Output
+Classifies emails as:
+- Phishing
+- Safe
